@@ -9,15 +9,21 @@ class Employee {
     return this.name 
   }
 
-  getId() {}
+  getId() {
+    return this.id
+  }
 
-  getEmail() {}
+  getEmail() {
+    return this.email
+  }
 
   getRole() {
     return 'Employee'
   }
 }
 
-let myEmployee = new Employee("My Employee", Yashemabeth);
-document.getElementById("demo").innerHTML =
-"My Employee Is" + myEmployee.name() + "Yashemabeth"
+let myEmployee = new Employee("Yashemabeth", 100, "yah@gmail.com");
+
+console.log(myEmployee.getRole()) 
+
+module.exports = Employee

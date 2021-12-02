@@ -1,3 +1,5 @@
+const Manager = require('./Manager')
+
 describe('Manager', () => {
     test('should be an instance of Manager', () => {
         

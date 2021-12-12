@@ -25,7 +25,7 @@ class Intern {
   getRole() {
     return 'Intern'
 }
-
+}
 
 let myIntern = new Intern("Sam", 300, "yyy@gmail.com", "www.github.com", "01212345678" );
 
